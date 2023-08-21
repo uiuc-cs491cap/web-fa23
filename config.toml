@@ -2,6 +2,9 @@ baseURL = 'https://uiuc-cs491cap.github.io/web-fa23/'
 languageCode = 'en-us'
 title = 'CS 491 CAP - Fa23'
 
+RelativeURLs=true
+CanonifyURLs=true
+
 
 [module]
 [[module.imports]]
