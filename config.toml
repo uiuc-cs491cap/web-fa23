@@ -1,6 +1,6 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://uiuc-cs491cap.github.io/web-fa23/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'CS 491 CAP - Fa23'
 
 
 [module]
