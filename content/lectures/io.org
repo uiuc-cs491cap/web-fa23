@@ -1,0 +1,20 @@
+---
+title: "IO"
+date: 2023-08-20T10:00:00
+weight: 2
+draft: false
+math: true
+---
+
+The first thing your program needs to do is read in the test data and convert it to an internal structure.
+There are several patterns that test cases follow, and you will need to handle each one a bit differently.
+It all comes down to knowing how much data you are going to get.  There are three primary ways you find this out:
+
+- An explicit count
+- A special marker (like a terminating zero)
+- Simply getting an end-of-file
+
+We will also talk about formatting options.
+
+** Slides
+- [[/slides/io.pdf][IO Slides]]
