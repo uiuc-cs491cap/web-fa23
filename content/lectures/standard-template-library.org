@@ -1,6 +1,6 @@
 ---
 title: "Standard Template Library"
-author = ["Mattox Beckman"]
+author: "Mattox Beckman"
 date: 2023-08-24T15:30:00
 weight: 3
 draft: false
