@@ -1,14 +1,87 @@
----
-title: "Syllabus"
-date: 2023-07-04T16:12:51-05:00
-draft: false
-weight: 1
-toc: true
-math: true
----
+#+HUGO_BASE_DIR: .
+#+MACRO: uva @@hugo:{{<UVa2 number="$1" >}}@@
 
 
-* Location and Times
+* Course Documentation
+:PROPERTIES:
+:HUGO_SECTION: docs
+:EXPORT_HUGO_SECTION: docs
+:END:
+
+** Why Take This Course?
+:PROPERTIES:
+:EXPORT_FILE_NAME: _index
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :weight 1 :date 2022-08-22 :publishdate 2022-07-01
+:END:
+
+Welcome to Competitive Programming!  In this class you will learn how to compete in programming contests such as ICPC,
+Code Forces, and Hacker Rank.  *Is this class for you?  Read on to find out...*
+
+*** What Are the Benefits of Competitive Programming?
+
+Participating in coding contests has benefits!
+
+  You will
+  - build confidence in your coding skills,
+  - increase your coding speed,
+  - be ready to crush a coding interview,
+  - and quite possibly make some friends!
+
+*** But... I'm not very competitive, and besides, I'll never beat those top students!
+
+That doesn't matter!  Whether you are just starting out or whether you are competing for a chance at the World Finals,
+the only person you're really trying to beat is yourself.  The goal is to try hard, do a little bit better than last time,
+or perhaps learn something that will help you next time.  You can do practice problems on your own, but there's nothing
+like a contest to keep you honest.
+
+*** Am I ready for this course?
+
+The only prerequisite is that we assume you know how to program.  We don't even assume you're any good at it... this course
+will help with that part.  But if you have programmed in Python, C, or C++ then you are ready for this course.
+
+It does help if you've taken data structures and a theory course... but you can get started now and take those later as you
+get stronger.
+
+** Getting Started
+:PROPERTIES:
+:EXPORT_FILE_NAME: getting-started
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :weight 2 :date 2022-08-22 :publishdate 2022-07-01
+:END:
+
+*** How Do I Get Started?
+
+  - Join the CampusWire forum.  If you registered before class started, you should have gotten an invite.  If you registered late,
+    or did not get the invite, you need to email the instructor.
+  - It is recommended that you get these books:
+    - [[https://cpbook.net][Competitive Programming 4]].  It is a two book set.
+    - [[https://link.springer.com/book/10.1007/978-3-319-72547-5][Guide to Competitive Programming]].  As of this writing the PDF is free.
+  - Register on [[https://codeforces.com][Code Forces]].  Your username *will be visible* to other students; you can create a "throwaway"
+    account if you want just for this course.
+    - Once you are registered, join [[https://codeforces.com/group/vXcw3y5Yhn/contests][the class group]].  This is where your problems
+      will be hosted.
+
+*** How do I get good at this?
+
+Practice.  A lot.  But do it efficiently...
+
+  - Attend contests as much as you can.
+    - [[https://codeforces.com][Code Forces]] has two hour long contests usually once or twice a week, for instance.
+    - After the contest is over, read the commentary, both for the problems you solved, and the problems you attempted and could not solve.
+    - Upsolve the ones you couldn't do.  (I don't know why they call it upsolving.)  This means that you go back to the computer, finish
+      your solution, and submit it until you get it accepted.
+  - Solve practice problems
+    - This has a similar feel, but in this case it's okay get help.  If you are solving UVa problems you can use the UDebug and UHunt
+      sites for extra hints / sample inputs.
+
+** Syllabus
+:PROPERTIES:
+:EXPORT_FILE_NAME: syllabus
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :weight 3 :date 2022-08-22 :publishdate 2022-07-01
+:END:
+
+
+
+*** Location and Times
 
   - Course Title: Introduction to Competitive Programming
   - Rubric: CS 491 CAP
@@ -23,14 +96,14 @@ math: true
   - Prerequisites: CS 225.  We will use C++ for our content, but you are welcome to use a different language.
   - Office Hours: TBA
 
-* Purpose
+*** Purpose
 
 The purpose of this course is to prepare you to compete in ICPC-style competitive programming contests.  While this will help
 you compete in the Illinois Programming League, Hacker Rank, Code Forces, or similar contests, learning this material has been shown
 to help with programming assignments in other courses, and many students learn this material to become confident and skillful in coding
 interviews.
 
-* Objectives and Outcomes
+*** Objectives and Outcomes
 
 Upon successfully completing this course, you will have solved over 100 programming problems.  You will have learned to
 select the correct algorithm depending on the problem constraints and available time and memory resources.  You will
@@ -38,7 +111,7 @@ have learned to implement your solutions quickly and accurately, being given min
 incorrect.  You will have learned to work on your own and in an ICPC style team of students using one computer.  And
 hopefully you will have a lot of fun doing so!
 
-* Class Structure
+*** Class Structure
 
 This is a flipped classroom.  You will be given a reading from the textbook or a short video to watch, and a sample
 problem or two to solve before class.  During class the instructor will ask for student comments about the problems and
@@ -46,24 +119,24 @@ give commentary.   Afterward, there will be three or so problems as homework, bu
 on them.  You are encouraged to ask for help from other students during the class time!  Once every two weeks we will
 release a larger problem set with a variety of problems to give you practice picking the correct algorithm to use.
 
-* Assignments and Grading
+*** Assignments and Grading
 
 This course is a Credit/No Credit course, but will be organized as if you were going to receive a letter grade. To get credit for the course,
 you must achieve a C- or better.
 
 There are three components to your grade: attendance, solving problems, and participating in contests or other activities.
 
-** Attendance
+**** Attendance
 
 Attendance is required.  Your grade will be reduced by a grade step for every three unexcused absences.  (E.g., An A-
 will turn into a B if you have 6 unexcused absences.)
 
-** Solving Problems
+**** Solving Problems
 
 We will calculate the percentage of the problems you solve from the pre-class problems, the homeworks, and the bi-weekly
 problem sets.  Each problem has the same weight.  This category is worth 90% of the grade.
 
-** Participation
+**** Participation
 
 You are also expected to participate in a certain number of timed contests.  These can be on CodeForces (1 point) or
 hosted by ICPC (2 points for a 5 hour contest).  Other contest sites may also count; ask the instructor for
@@ -71,8 +144,8 @@ pre-approval.  Other activities such as attending a guest lecture or contributin
 or creating a Team Reference Document can also count toward this requirement.  You are expected to accumulate four
 participation points.  This category is worth 10% of the grade.
 
-* Other Things
-** Students with Disabilities
+*** Other Things
+**** Students with Disabilities
 
 To obtain disability-related academic adjustments and/or auxiliary aids, students with disabilities must contact the
 course instructor as soon as possible. To insure that disability-related concerns are properly addressed from the
@@ -82,20 +155,20 @@ sort of disability, please speak to me after class, or make an appointment to se
 DRES provides students with academic accommodations, access, and support services. To contact DRES you may visit 1207 S.
 Oak St., Champaign, call 333-4603 (v/tdd), or e-mail a message to [[mailto:disability@uiuc.edu][disability@uiuc.edu]].
 
-** Emergency Response Recommendations
+*** Emergency Response Recommendations
 
 The university police have posted some [[http://police.illinois.edu/emergency/][emergency response recommendations]]. I encourage you to review this website and
 the campus building [[http://police.illinois.edu/emergency-preparedness/building-emergency-action-plans/][floor plans website]] within the first 10 days of class.
 
 By the way, have you considered making a fire safety plan with your family or roommates?
 
-** Family Educational Rights and Privacy Act (FERPA)
+*** Family Educational Rights and Privacy Act (FERPA)
 
 Any student who has suppressed their directory information pursuant to family educational rights and privacy act (FERPA)
 should self-identify to the instructor to ensure protection of the privacy of their attendance in this course. see the
 [[http://registrar.illinois.edu/ferpa][FERPA]] site for more information.
 
-** Mental Health
+*** Mental Health
 
 Diminished mental health, including significant stress, mood changes, excessive worry, substance/alcohol abuse, or
 problems with eating and/or sleeping can interfere with optimal academic performance, social development, and emotional
@@ -108,3 +181,40 @@ for those who care about you.
 Counseling Center: 217-333-3704, 610 East John Street Champaign, IL 61820
 
 McKinley Health Center:217-333-2700, 1109 South Lincoln Avenue, Urbana, Illinois 61801
+
+* Lectures
+:PROPERTIES:
+:HUGO_SECTION: lectures
+:EXPORT_HUGO_SECTION: lectures
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :weight 2
+:END:
+
+** Lectures
+:PROPERTIES:
+:EXPORT_FILE_NAME: _index
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :weight 1 :date 2022-08-22 :publishdate 2022-07-01
+:END:
+
+#+begin_export hugo
+{{< Lectures >}}
+#+end_export
+
+** Complete Search
+:PROPERTIES:
+:EXPORT_FILE_NAME: complete_search
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :weight 4 :date 2022-08-22 :publishdate 2022-07-01
+:END:
+
+
+Also knowns as "brute force"; this paradigm happens when there's nothing to do but check all the possible solutions.
+
+BUT!!!  That doesn't mean that you can't be clever how you do it.
+
+*** Slides
+- [[/slides/complete-search.pdf][Complete Search Slides]]
+
+
+* End :noexport:
+;; Local Variables:
+;; eval: (org-link-set-parameters "class" :export #'my-org-export-class-link)
+;; End:

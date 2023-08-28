@@ -1,12 +1,10 @@
----
-title: "Schedule"
-date: 2023-07-20T11:17:40-05:00
-weight: 2
-draft: false
-math: true
----
++++
+title = "Lectures"
+author = ["Mattox Beckman"]
+draft = false
+weight = 1
+date = 2022-08-22
+publishdate = 2022-07-01
++++
 
-## Lecture Schedule
-
-{{< Lectures >}} 
-
+{{< Lectures >}}
