@@ -205,14 +205,47 @@ McKinley Health Center:217-333-2700, 1109 South Lincoln Avenue, Urbana, Illinois
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :weight 4 :date 2022-08-22 :publishdate 2022-07-01
 :END:
 
-
-Also knowns as "brute force"; this paradigm happens when there's nothing to do but check all the possible solutions.
+Also known as "brute force"; this paradigm happens when there's nothing to do but check all the possible solutions.
 
 BUT!!!  That doesn't mean that you can't be clever how you do it.
 
 *** Slides
 - [[/slides/complete-search.pdf][Complete Search Slides]]
 
+** Divide and Conquer
+:PROPERTIES:
+:EXPORT_FILE_NAME: divide_and_conquer
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :weight 5 :date 2022-08-22 :publishdate 2022-07-01
+:ID:       99caeb59-31db-4e9d-a2cd-7c905eddedc0
+:END:
+
+Divide and Conquer is an algorithmic strategy that involves breaking a complex problem  into smaller, more manageable
+sub-problems. There are three steps: "Divide" the problem into smaller instances, "Conquer" these instances
+(either by solving them directly or recursively applying the strategy), and then "Combine" the solutions of these
+sub-problems to form the solution for the original problem.
+
+A classic example of this approach is the Merge Sort algorithm: the array is divided into two halves, each half is
+recursively sorted, and then the two sorted halves are merged together.
+
+*** Slides
+- [[/slides/divide-and-conquer.pdf][Divide and Conquer Slides]]
+
+** Greedy Algorithms
+:PROPERTIES:
+:EXPORT_FILE_NAME: greedy_algorithms
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :weight 6 :date 2022-08-22 :publishdate 2022-07-01
+:ID:       536a6476-b1c4-4dd7-b720-44a06977ecf4
+:END:
+
+
+A Greedy Algorithm is a problem-solving approach that makes a locally optimal choice at each step.  There is a class of
+problems where this approach also yields the globally optimum solution.
+
+Classic examples include the coin change problem (under certain circumstances), activity selection, and certain
+scheduling problems.
+
+*** Slides
+- [[/slides/greedy-algorithms.pdf][Greedy Algorithms Slides]]
 
 * End :noexport:
 ;; Local Variables:
