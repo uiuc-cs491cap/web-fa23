@@ -195,9 +195,15 @@ McKinley Health Center:217-333-2700, 1109 South Lincoln Avenue, Urbana, Illinois
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :weight 1 :date 2022-08-22 :publishdate 2022-07-01
 :END:
 
-#+begin_export hugo
-{{< Lectures >}}
-#+end_export
+| Date              | Topic                                |
+|-------------------+--------------------------------------|
+| August 21, 2023   | Intro to Competitive Programming     |
+| August 23, 2023   | IO                                   |
+| August 25, 2023   | Standard Template Library            |
+| August 28, 2023   | [[*Complete Search]]                     |
+| August 30, 2023   | [[*Divide and Conquer]]                  |
+| September 1, 2023 | [[*Greedy Algorithms]]                   |
+| September 6, 2023 | [[*Introduction to Dynamic Programming]] |
 
 ** Complete Search
 :PROPERTIES:
@@ -246,6 +252,21 @@ scheduling problems.
 
 *** Slides
 - [[/slides/greedy-algorithms.pdf][Greedy Algorithms Slides]]
+
+
+** Introduction to Dynamic Programming
+:PROPERTIES:
+:EXPORT_FILE_NAME: dynamic-programming
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :weight 7 :date 2022-08-22 :publishdate 2022-07-01
+:ID:       3ed6c54b-200a-4a1f-b20b-3953698f305b
+:END:
+
+Greedy algorithms are fun, but sometimes you need more power than what they can give you.  Like Greedy problems, Dynamic Programming (DP)
+problems have overlapping optimal substructure.  Unfortunately, what is often the best local choice can end up *not* giving you the best
+global solution.  Dynamic programming allows us to take advantage of the overlapping substructure property to speed up the search.
+
+*** Slides
+- [[/slides/dynamic-programming.pdf][Dynamic Programming Slides]]
 
 * End :noexport:
 ;; Local Variables:

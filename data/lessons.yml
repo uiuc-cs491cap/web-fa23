@@ -13,3 +13,23 @@
   slug: standard-template-library
   number: 2
   date: 2023-08-25
+03:
+  name:   "Complete Search"
+  slug: complete_search
+  number: 3
+  date: 2023-08-28
+04:
+  name:   "Divide and Conquer"
+  slug: divide_and_conquer
+  number: 4
+  date: 2023-08-30
+05:
+  name:   "Greedy Algorithms"
+  slug: greedy_algorithms
+  number: 5
+  date: 2023-09-01
+06:
+  name:   "Dynamic Programming"
+  slug: dynamic-programming
+  number: 6
+  date: 2023-09-06
