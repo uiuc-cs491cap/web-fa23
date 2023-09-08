@@ -1,6 +1,48 @@
 #+HUGO_BASE_DIR: .
 #+MACRO: uva @@hugo:{{<UVa2 number="$1" >}}@@
 
+* Videos
+:PROPERTIES:
+:HUGO_SECTION: videos
+:EXPORT_HUGO_SECTION: videos
+:END:
+
+** Line Sweep Convex Hull
+:PROPERTIES:
+:EXPORT_FILE_NAME: line-sweep-convex-hull
+:END:
+
+#+HTML: <video id="my-video" controls preload="auto" width="720" data-setup="playbackRates: [0.5,1,1.5,2]">
+#+HTML:   <source type="video/mp4" src="/videos/LineSweepConvexHull.mp4"}></source>
+#+HTML: </video>
+
+** Line Sweep Closest Points
+:PROPERTIES:
+:EXPORT_FILE_NAME: line-sweep-closest-points
+:END:
+
+#+HTML: <video id="my-video" controls preload="auto" width="720" data-setup="playbackRates: [0.5,1,1.5,2]">
+#+HTML:   <source type="video/mp4" src="/videos/LineSweepClosestPoints.mp4"}></source>
+#+HTML: </video>
+
+** Line Sweep Area of Union
+:PROPERTIES:
+:EXPORT_FILE_NAME: line-sweep-area-of-union
+:END:
+
+#+HTML: <video id="my-video" controls preload="auto" width="720" data-setup="playbackRates: [0.5,1,1.5,2]">
+#+HTML:   <source type="video/mp4" src="/videos/LineSweepAreaOfUnion.mp4"}></source>
+#+HTML: </video>
+
+** Edit Distance Video
+:PROPERTIES:
+:EXPORT_FILE_NAME: edit-distance
+:END:
+
+#+HTML: <video id="my-video" controls preload="auto" width="720" data-setup="playbackRates: [0.5,1,1.5,2]">
+#+HTML:   <source type="video/mp4" src="/videos/EditDistance.mp4"}></source>
+#+HTML: </video>
+
 
 * Course Documentation
 :PROPERTIES:
@@ -204,6 +246,7 @@ McKinley Health Center:217-333-2700, 1109 South Lincoln Avenue, Urbana, Illinois
 | August 30, 2023   | [[*Divide and Conquer]]                  |
 | September 1, 2023 | [[*Greedy Algorithms]]                   |
 | September 6, 2023 | [[*Introduction to Dynamic Programming]] |
+| September 8, 2023 | [[*Graph Representations]]               |
 
 ** Complete Search
 :PROPERTIES:
@@ -267,6 +310,310 @@ global solution.  Dynamic programming allows us to take advantage of the overlap
 
 *** Slides
 - [[/slides/dynamic-programming.pdf][Dynamic Programming Slides]]
+
+
+** Graph Representations
+:PROPERTIES:
+:EXPORT_FILE_NAME: graph-representations
+:EXPORT_DATE: 2023-02-13
+:ID:       ca2dbeb0-083d-4f98-95ad-c429bf32bae9
+:END:
+
+*** Slides
+- [[/slides/graph-representation.pdf][Graph Representation Slides]]
+
+
+** Single Source Shortest Path
+:PROPERTIES:
+:EXPORT_FILE_NAME: single-source-shortest-path
+:EXPORT_DATE: 2023-02-20
+:ID:       4e09691a-8f1a-4fd3-8b5c-f75251bcb105
+:END:
+
+*** Slides
+
+- [[/slides/bfs-shortest-path.pdf][BFS Shortest Path]]
+- [[/slides/dijkstra-shortest-path.pdf][Dijkstra's Shortest Path Algorithm]]
+- [[/slides/bellman-ford-and-spfa.pdf][Bellman Ford and SPFA]]
+
+
+** All Points Shortest Path
+:PROPERTIES:
+:EXPORT_FILE_NAME: single-source-shortest-path
+:EXPORT_DATE: 2023-02-20
+:ID:       68db99bd-53c6-4425-aa45-c37d63573504
+:END:
+
+*** Slides
+
+- [[/slides/floyd-warshall.pdf][Floyd Warshall]]
+
+** Traversals 2
+:PROPERTIES:
+:EXPORT_FILE_NAME: traversals-2
+:EXPORT_DATE: 2023-02-24
+:ID:       5c13742e-38e0-4436-8d7b-426af1f28ee5
+:END:
+
+*** Slides
+
+- [[/slides/traversals-2.pdf][Traversals 2]]
+
+
+** Network Flow
+:PROPERTIES:
+:EXPORT_FILE_NAME: network-flow
+:EXPORT_DATE: 2023-02-27
+:ID:       0422089d-5d4e-4d32-bed1-d0a4dfb47870
+:END:
+
+The Edmonds-Karp algorithm is a popular and efficient algorithm used to solve the max-flow problem in network flow
+theory. This algorithm is an extension of the Ford-Fulkerson algorithm, which is a simple algorithm for finding the
+maximum flow in a network. The Edmonds-Karp algorithm uses a breadth-first search approach to find the shortest
+augmenting path in the residual graph, making it faster and more efficient than the original Ford-Fulkerson algorithm.
+
+*** Slides
+
+- [[/slides/edmonds-karp.pdf][Edmonds Karp]]
+
+** Prime Numbers
+:PROPERTIES:
+:EXPORT_FILE_NAME: prime-numbers
+:EXPORT_DATE: 2023-03-01
+:ID:       d621ddd6-0b6d-4175-b474-314799ed46ae
+:END:
+
+Prime numbers are a familiar feature in mathematics, and often come up in competitive programming.  In this lecture
+we will derive the Sieve of Erastosthenes, show how to factor large numbers, and discuss the practical limits to the
+number of prime numbers we can generate during a contest.
+
+*** Slides
+
+- [[/slides/prime-numbers.pdf][Prime Numbers]]
+
+** Combinatorics
+:PROPERTIES:
+:EXPORT_FILE_NAME: combinatorics
+:EXPORT_DATE: 2023-03-06
+:ID:       d9bf37b1-8c13-4984-8448-adbf6f692b48
+:END:
+
+Combinatorics is the branch of mathematics that deals with counting and arranging objects.  We will cover some of the
+fundamental concepts in combinatorics, including binomial coefficients, permutations, and derangements.
+
+Binomial coefficients, also known as binomials, are a tool for counting the number of ways that a given set of objects
+can be arranged or selected. We will explain how to calculate binomial coefficients  to model different scenarios such
+as flipping coins or selecting items from a set.
+
+A permutation is a reordering of a set of items.  We will explain how to count the number of permutations and how to
+generate all the permutations of a given set. Derangements are permutations where no element appears in its original
+position.  We will examine how to calculate the number of derangements for a set and discuss its applications.
+
+*** Slides
+
+- [[/slides/combinatorics.pdf][Combinatorics]]
+
+
+** GCD
+:PROPERTIES:
+:EXPORT_FILE_NAME: GCD
+:EXPORT_DATE: 2023-03-08
+:ID:       f118cc9f-89b0-4a60-92e7-ed16708011fb
+:END:
+
+GCD, or Greatest Common Divisor, is a mathematical concept that refers to the largest positive integer that divides two or more numbers without leaving a remainder.
+
+In class we will derive Euclid's algorithm, an efficient way of computing GCD, as well as explore some of the properties of GCD you will want to know when solving
+competitve programming problems.
+
+*** Materials
+
+- [[/handouts/gcd.pdf][GCD Handout]]
+
+** Inclusion/Exclusion
+:PROPERTIES:
+:EXPORT_FILE_NAME: inclusion-exclusion
+:EXPORT_DATE: 2023-03-08
+:ID:       f118cc9f-89b0-4a60-92e7-ed16708011fb
+:END:
+
+The principle of inclusion/exclusion is a counting technique used to calculate the size of a union of sets. It states that:
+
+$|A \cup B \cup C| = |A| + |B| + |C| - |A \cap B| - |B \cap C| - |A \cap C| + |A \cap B \cap C|$
+
+where $A$, $B$, and $C$ are any finite sets.
+
+In other words, to find the size of the union of three sets $A$, $B$, and $C$, you first add the sizes of each set
+individually, then subtract the sizes of the overlaps $(A \cap B, B \cap C$, and $A \cap C$), and finally add the size of the
+triple overlap $(A \cap B \cap C)$.
+
+This principle can be extended to any number of sets, and is a useful tool in combinatorics, probability theory, and
+other areas of mathematics.
+
+*** Materials
+
+- [[/slides/inclusion-exclusion.pdf][Inclusion-Exclusion Slides]]
+
+** Bit Manipulation
+:PROPERTIES:
+:EXPORT_FILE_NAME: bit-manipulation
+:EXPORT_DATE: 2023-03-20
+:ID:       d7d4e811-1f15-42ca-b44c-fd51153aa8e1
+:END:
+
+*** Materials
+
+- [[/slides/bit-manipulations.pdf][Slides]]
+
+** Traveling Sales Person
+:PROPERTIES:
+:EXPORT_FILE_NAME: tsp
+:EXPORT_DATE: 2023-03-22
+:ID:       d7d4e811-1f15-42ca-b44c-fd51153aa8e1
+:END:
+
+The Traveling Salesperson Problem (TSP) is a well-known problem in computer science and operations research that asks
+for the shortest possible route that visits every city exactly once and returns to the starting city.  TSP has many
+practical applications, including in logistics, transportation planning, and circuit board design.
+
+*** Materials
+
+- [[/handouts/tsp-handout.pdf][Handout]]
+- [[/slides/tsp-slides.pdf][Slides]]
+
+** Fast Exponentiation
+:PROPERTIES:
+:EXPORT_FILE_NAME: fast-exponentiation
+:EXPORT_DATE: 2023-03-24
+:ID:       71052961-1628-496c-b36d-7e223977c62d
+:END:
+
+Exponents are fun, but using bit techniques we covered last time we can compute them significantly faster than the standard technique.
+This generalizes to other forms as well, such as computing Fibonacci numbers is sub-linear time.
+
+*** Materials
+
+- [[/slides/fast-exponentiation.pdf][Slides]]
+
+** Points, Lines, and Vectors
+:PROPERTIES:
+:EXPORT_FILE_NAME: points-lines-vectors
+:EXPORT_DATE: 2023-03-27
+:ID:       bd6ab2e0-c715-428f-a055-5e8cc58708d2
+:END:
+
+*** Materials
+
+- [[/slides/points-lines-vectors-slides.pdf][Slides]]
+
+** Line Sweep
+:PROPERTIES:
+:EXPORT_FILE_NAME: line-sweep
+:EXPORT_DATE: 2023-04-05
+:END:
+
+*** Materials
+
+- [[*Line Sweep Convex Hull]] Video
+- [[*Line Sweep Closest Points]] Video
+- [[*Line Sweep Area of Union]] Video
+
+
+** Rotating Calipers
+:PROPERTIES:
+:EXPORT_FILE_NAME: rotating-calipers
+:EXPORT_DATE: 2023-04-07
+:ID:       1ce51bbb-8fe0-49ba-9855-ca24018b2ec4
+:END:
+
+#+begin_src c++ -n
+function dist(p1,p2,p) {
+
+  var A = p.x - p1.x;
+  var B = p.y - p1.y;
+  var C = p2.x - p1.x;
+  var D = p2.y - p1.y;
+
+  var dot = A * C + B * D;
+  var len_sq = C * C + D * D;
+  var param = -1;
+  if (len_sq != 0) //in case of 0 length line
+      param = dot / len_sq;
+
+  var xx, yy;
+
+  if (param < 0) {
+    xx = p1.x;
+    yy = p1.y;
+  }
+  else if (param > 1) {
+    xx = p1.x;
+    yy = p1.y;
+  }
+  else {
+    xx = p1.x + param * C;
+    yy = p1.y + param * D;
+  }
+
+  var dx = p.x - xx;
+  var dy = p.y - yy;
+  return Math.sqrt(dx * dx + dy * dy);
+}
+
+// Rotating Calipers Code
+
+vector<point> p;
+
+int n; // number of points
+
+typedef pair<point,point> pp;
+
+set<pp> antipodes;
+
+int k=1;
+
+while (dist(p[n-1],p[0],p[k+1]) > dist(p[n-1],p[1],p[k])
+    ++k;
+
+int i=1;
+int j=k;
+
+while (i <= k && j < n) {
+  antipodes.add(pp(p[i],p[k]));
+  while (dist(p[i],p[i+1],p[j+1]) > dist(p[i],p[i+1],p[j]) && j<m) {
+     antipodes.add(pp(p[i],p[j]));
+     ++j;
+  }
+  ++i;
+}
+#+end_src
+
+** Edit Distance
+:PROPERTIES:
+:EXPORT_FILE_NAME: line-sweep
+:EXPORT_DATE: 2023-04-05
+:END:
+
+Today we will talk about a classic string DP problem, determining the edit distance
+between two strings.
+
+*** Materials
+
+- [[/slides/edit-distance-slides.pdf][Slides]]
+- [[*Edit Distance Video]]
+
+
+** Rabin-Karp Algorithm
+:PROPERTIES:
+:EXPORT_FILE_NAME: rabin-karp
+:EXPORT_DATE: 2023-04-14
+:END:
+
+The Rabin-Karp algorithm uses a rolling hash function to find a string within another string.
+
+*** Materials
+
+- [[/slides/rabin-karp.pdf][Slides]]
 
 * End :noexport:
 ;; Local Variables:

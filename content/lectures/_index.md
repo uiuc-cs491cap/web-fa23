@@ -16,3 +16,4 @@ publishdate = 2022-07-01
 | August 30, 2023   | [Divide and Conquer]({{< relref "divide_and_conquer" >}})                   |
 | September 1, 2023 | [Greedy Algorithms]({{< relref "greedy_algorithms" >}})                     |
 | September 6, 2023 | [Introduction to Dynamic Programming]({{< relref "dynamic-programming" >}}) |
+| September 8, 2023 | [Graph Representations]({{< relref "graph-representations" >}})             |
