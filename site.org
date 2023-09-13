@@ -237,16 +237,19 @@ McKinley Health Center:217-333-2700, 1109 South Lincoln Avenue, Urbana, Illinois
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :weight 1 :date 2022-08-22 :publishdate 2022-07-01
 :END:
 
-| Date              | Topic                                |
-|-------------------+--------------------------------------|
-| August 21, 2023   | Intro to Competitive Programming     |
-| August 23, 2023   | IO                                   |
-| August 25, 2023   | Standard Template Library            |
-| August 28, 2023   | [[*Complete Search]]                     |
-| August 30, 2023   | [[*Divide and Conquer]]                  |
-| September 1, 2023 | [[*Greedy Algorithms]]                   |
-| September 6, 2023 | [[*Introduction to Dynamic Programming]] |
-| September 8, 2023 | [[*Graph Representations]]               |
+| Date               | Topic                                    |
+|--------------------+------------------------------------------|
+| August 21, 2023    | Intro to Competitive Programming         |
+| August 23, 2023    | IO                                       |
+| August 25, 2023    | Standard Template Library                |
+| August 28, 2023    | [[*Complete Search]]                     |
+| August 30, 2023    | [[*Divide and Conquer]]                  |
+| September 1, 2023  | [[*Greedy Algorithms]]                   |
+| September 6, 2023  | [[*Introduction to Dynamic Programming]] |
+| September 8, 2023  | [[*Graph Representations]]               |
+| September 11, 2023 | [[*Minimum Spanning Trees]]              |
+| September 13, 2023 | [[*Graph Traversals 1]]                  |
+| September 15, 2023 | [[*Single Source Shortest Path]]         |
 
 ** Complete Search
 :PROPERTIES:
@@ -323,13 +326,46 @@ global solution.  Dynamic programming allows us to take advantage of the overlap
 - [[/slides/graph-representation.pdf][Graph Representation Slides]]
 
 
+** Minimum Spanning Trees
+:PROPERTIES:
+:EXPORT_FILE_NAME: minimum-spanning-trees
+:EXPORT_DATE: 2023-02-20
+:ID:       f187cfce-4357-4fa8-89dd-8ef15ad7a0eb
+:END:
+
+Sometimes you want to connect a graph and minimize the cost of the connections without regard to the length of a path
+between any particular two noted.  These are called /Minimum Spanning Trees/.
+
+*** Slides
+
+- [[/slides/minimum-spanning-trees.pdf][Minimum Spanning Trees]]
+- [[/slides/kruscals-algorithm.pdf][Kruscal's Algorithm]]
+
+** Graph Traversals 1
+:PROPERTIES:
+:EXPORT_FILE_NAME: graph-traversals-1
+:EXPORT_DATE: 2023-02-24
+:ID:       5c13742e-38e0-4436-8d7b-426af1f28ee5
+:END:
+
+We will cover the baseic traversals of DFS and BFS and talk about what we can do with them
+in the context of competitve programming.
+
+
+*** Slides
+
+- [[/slides/graph-traversals-1.pdf][Graph Traversals 1]]
+
 ** Single Source Shortest Path
+
 :PROPERTIES:
 :EXPORT_FILE_NAME: single-source-shortest-path
 :EXPORT_DATE: 2023-02-20
 :ID:       4e09691a-8f1a-4fd3-8b5c-f75251bcb105
 :END:
 
+Normally we would talk about traversals, but at this point you probably are okay with BFS and DFS.  So to speed things up,
+we will talk about using those traversals to find the shortest path
 *** Slides
 
 - [[/slides/bfs-shortest-path.pdf][BFS Shortest Path]]
