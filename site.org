@@ -357,7 +357,6 @@ in the context of competitve programming.
 - [[/slides/graph-traversals-1.pdf][Graph Traversals 1]]
 
 ** Single Source Shortest Path
-
 :PROPERTIES:
 :EXPORT_FILE_NAME: single-source-shortest-path
 :EXPORT_DATE: 2023-02-20
@@ -375,7 +374,7 @@ we will talk about using those traversals to find the shortest path
 
 ** All Points Shortest Path
 :PROPERTIES:
-:EXPORT_FILE_NAME: single-source-shortest-path
+:EXPORT_FILE_NAME: all-points-shortest-path
 :EXPORT_DATE: 2023-02-20
 :ID:       68db99bd-53c6-4425-aa45-c37d63573504
 :END:
