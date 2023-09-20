@@ -20,3 +20,4 @@ publishdate = 2022-07-01
 | September 11, 2023 | [Minimum Spanning Trees]({{< relref "minimum-spanning-trees" >}})           |
 | September 13, 2023 | [Graph Traversals 1]({{< relref "graph-traversals-1" >}})                   |
 | September 15, 2023 | [Single Source Shortest Path]({{< relref "single-source-shortest-path" >}}) |
+| September 20, 2023 | [All Points Shortest Path]({{< relref "all-points-shortest-path" >}}) |
