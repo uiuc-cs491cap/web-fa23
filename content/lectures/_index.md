@@ -22,3 +22,4 @@ publishdate = 2022-07-01
 | September 15, 2023 | [Single Source Shortest Path]({{< relref "single-source-shortest-path" >}}) |
 | September 20, 2023 | [All Points Shortest Path]({{< relref "all-points-shortest-path" >}}) |
 | September 25, 2023 | [Graph Traversals 2]({{< relref "graph-traversals-2" >}}) |
+| September 27, 2023 | [Prime Numbers]({{< relref "prime-numbers" >}}) |
