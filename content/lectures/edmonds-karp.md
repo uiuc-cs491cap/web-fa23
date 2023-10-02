@@ -1,5 +1,5 @@
 +++
-title = "Network Flow"
+title = "Network Flow (Edmonds-Karp)"
 author = ["Mattox Beckman"]
 date = 2023-02-27
 draft = false
