@@ -14,4 +14,5 @@ competitve programming problems.
 
 ## Materials {#materials}
 
+-   [Euclid's Algorithm Slides](/slides/euclids-algorithm.pdf)
 -   [GCD Handout](/handouts/gcd.pdf)
