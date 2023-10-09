@@ -25,4 +25,5 @@ publishdate = 2022-07-01
 | September 27, 2023 | [Prime Numbers]({{< relref "prime-numbers" >}}) |
 | October 2, 2023    | [GCD]({{< relref "gcd" >}}) |
 | October 4, 2023    | [Inclusion-Exclusion]({{< relref "inclusion-exclusion" >}}) |
+| October 9, 2023    | [DP: LCS and LIS]({{< relref "dp-lcs-lis" >}}) |
 | Extra   | [Edmonds-Karp (Network Flow)]({{< relref "edmonds-karp" >}}) |
