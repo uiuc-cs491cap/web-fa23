@@ -1,6 +1,7 @@
 #+HUGO_BASE_DIR: .
 #+MACRO: uva @@hugo:{{<UVa2 number="$1" >}}@@
 
+
 * Videos
 :PROPERTIES:
 :HUGO_SECTION: videos
