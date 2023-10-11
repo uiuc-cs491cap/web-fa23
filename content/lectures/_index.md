@@ -26,4 +26,5 @@ publishdate = 2022-07-01
 | October 2, 2023    | [GCD]({{< relref "gcd" >}}) |
 | October 4, 2023    | [Inclusion-Exclusion]({{< relref "inclusion-exclusion" >}}) |
 | October 9, 2023    | [DP: LCS and LIS]({{< relref "dp-lcs-lis" >}}) |
+| October 11, 2023    | [DP: Palindromes]({{< relref "dp-palindromes" >}}) |
 | Extra   | [Edmonds-Karp (Network Flow)]({{< relref "edmonds-karp" >}}) |
