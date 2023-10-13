@@ -27,4 +27,6 @@ publishdate = 2022-07-01
 | October 4, 2023    | [Inclusion-Exclusion]({{< relref "inclusion-exclusion" >}}) |
 | October 9, 2023    | [DP: LCS and LIS]({{< relref "dp-lcs-lis" >}}) |
 | October 11, 2023    | [DP: Palindromes]({{< relref "dp-palindromes" >}}) |
+| October 13, 2023    | [DP: Knapsack]({{< relref "dp-knapsack" >}}) |
+| October 16, 2023    | No Class (Senate Meeting) |
 | Extra   | [Edmonds-Karp (Network Flow)]({{< relref "edmonds-karp" >}}) |
