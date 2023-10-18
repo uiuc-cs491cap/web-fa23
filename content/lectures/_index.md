@@ -29,4 +29,5 @@ publishdate = 2022-07-01
 | October 11, 2023    | [DP: Palindromes]({{< relref "dp-palindromes" >}}) |
 | October 13, 2023    | [DP: Knapsack]({{< relref "dp-knapsack" >}}) |
 | October 16, 2023    | No Class (Senate Meeting) |
+| October 18, 2023    | [Combinatorics]({{< relref "combinatorics" >}}) |
 | Extra   | [Edmonds-Karp (Network Flow)]({{< relref "edmonds-karp" >}}) |
