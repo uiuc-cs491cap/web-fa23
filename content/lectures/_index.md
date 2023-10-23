@@ -31,6 +31,6 @@ publishdate = 2022-07-01
 | October 16, 2023    | No Class (Senate Meeting) |
 | October 18, 2023    | [Combinatorics]({{< relref "combinatorics" >}}) |
 | October 20, 2023    | [Bit Manipulations]({{< relref "bit-manipulation" >}}) |
-| October 23, 2023    | [Catalan Numbers]({{< relref "catalan-numbers" >}}) |
-| October 25, 2023    | [Fast Exponentiation]({{< relref "fast-exponentiation" >}}) |
+| October 23, 2023    | [Fast Exponentiation]({{< relref "fast-exponentiation" >}}) |
+| October 25, 2023    | [Catalan Numbers]({{< relref "catalan-numbers" >}}) |
 | Extra   | [Edmonds-Karp (Network Flow)]({{< relref "edmonds-karp" >}}) |
