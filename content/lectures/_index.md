@@ -35,4 +35,5 @@ publishdate = 2022-07-01
 | October 25, 2023    | [Catalan Numbers]({{< relref "catalan-numbers" >}}) |
 | October 27, 2023    | [DP: Knapsack 2]({{< relref "dp-knapsack-2" >}}) |
 | October 30, 2023    | [LCA and Binary Lifting]({{< relref "lca-binary-lifting" >}}) |
+| November 1, 2023    | [TSP]({{< relref "tsp" >}}) |
 | Extra   | [Edmonds-Karp (Network Flow)]({{< relref "edmonds-karp" >}}) |

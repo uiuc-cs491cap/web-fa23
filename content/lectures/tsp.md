@@ -14,4 +14,4 @@ practical applications, including in logistics, transportation planning, and cir
 ## Materials {#materials}
 
 -   [Handout](/handouts/tsp-handout.pdf)
--   [Slides](/slides/tsp-slides.pdf)
+-   [Slides](/slides/tsp.pdf)
