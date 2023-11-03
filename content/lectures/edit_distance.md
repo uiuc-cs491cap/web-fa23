@@ -11,4 +11,4 @@ Today we will talk about a classic string DP problem, determining the edit dista
 ## Materials {#materials}
 
 -   [Slides](/slides/edit-distance-slides.pdf)
--   [Edit Distance Video]({{< relref "edit_distance" >}})
+-   [Edit Distance Video]({{< relref "edit_distance_video" >}})
