@@ -1,6 +1,5 @@
 +++
 title = "Syllabus"
-author = ["Mattox Beckman"]
 draft = false
 weight = 3
 date = 2022-08-22
@@ -51,7 +50,7 @@ release a larger problem set with a variety of problems to give you practice pic
 
 ## Assignments and Grading {#assignments-and-grading}
 
-This course is a Credit/No Credit course, but will be organized as if you were going to receive a letter grade. To get credit for the course,
+**This course is a Credit/No Credit course, but will be organized as if you were going to receive a letter grade.** To get credit for the course,
 you must achieve a C- or better.
 
 There are three components to your grade: attendance, solving problems, and participating in contests or other activities.
@@ -66,16 +65,7 @@ will turn into a B if you have 6 unexcused absences.)
 ### Solving Problems {#solving-problems}
 
 We will calculate the percentage of the problems you solve from the pre-class problems, the homeworks, and the bi-weekly
-problem sets.  Each problem has the same weight.  This category is worth 90% of the grade.
-
-
-### Participation {#participation}
-
-You are also expected to participate in a certain number of timed contests.  These can be on CodeForces (1 point) or
-hosted by ICPC (2 points for a 5 hour contest).  Other contest sites may also count; ask the instructor for
-pre-approval.  Other activities such as attending a guest lecture or contributing problems to the course problem pool,
-or creating a Team Reference Document can also count toward this requirement.  You are expected to accumulate four
-participation points.  This category is worth 10% of the grade.
+problem sets.  Each problem has the same weight.
 
 
 ## Other Things {#other-things}

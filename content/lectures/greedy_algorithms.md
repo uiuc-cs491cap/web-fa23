@@ -1,6 +1,5 @@
 +++
 title = "Greedy Algorithms"
-author = ["Mattox Beckman"]
 draft = false
 weight = 6
 date = 2022-08-22

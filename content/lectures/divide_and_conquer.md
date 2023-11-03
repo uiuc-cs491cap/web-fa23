@@ -1,6 +1,5 @@
 +++
 title = "Divide and Conquer"
-author = ["Mattox Beckman"]
 draft = false
 weight = 5
 date = 2022-08-22

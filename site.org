@@ -9,7 +9,7 @@
 
 ** Line Sweep Convex Hull
 :PROPERTIES:
-:EXPORT_FILE_NAME: line-sweep-convex-hull
+:EXPORT_FILE_NAME: line_sweep_convex_hull
 :END:
 
 #+HTML: <video id="my-video" controls preload="auto" width="720" data-setup="playbackRates: [0.5,1,1.5,2]">
@@ -18,7 +18,7 @@
 
 ** Line Sweep Closest Points
 :PROPERTIES:
-:EXPORT_FILE_NAME: line-sweep-closest-points
+:EXPORT_FILE_NAME: line_sweep_closest_points
 :END:
 
 #+HTML: <video id="my-video" controls preload="auto" width="720" data-setup="playbackRates: [0.5,1,1.5,2]">
@@ -27,7 +27,7 @@
 
 ** Line Sweep Area of Union
 :PROPERTIES:
-:EXPORT_FILE_NAME: line-sweep-area-of-union
+:EXPORT_FILE_NAME: line_sweep_area_of_union
 :END:
 
 #+HTML: <video id="my-video" controls preload="auto" width="720" data-setup="playbackRates: [0.5,1,1.5,2]">
@@ -36,7 +36,7 @@
 
 ** Edit Distance Video
 :PROPERTIES:
-:EXPORT_FILE_NAME: edit-distance
+:EXPORT_FILE_NAME: edit_distance
 :END:
 
 #+HTML: <video id="my-video" controls preload="auto" width="720" data-setup="playbackRates: [0.5,1,1.5,2]">
@@ -50,7 +50,7 @@
 :EXPORT_HUGO_SECTION: docs
 :END:
 
-** Why Take This Course?
+** Welcome
 :PROPERTIES:
 :EXPORT_FILE_NAME: _index
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :weight 1 :date 2022-08-22 :publishdate 2022-07-01
@@ -97,8 +97,8 @@ get stronger.
   - It is recommended that you get these books:
     - [[https://cpbook.net][Competitive Programming 4]].  It is a two book set.
     - [[https://link.springer.com/book/10.1007/978-3-319-72547-5][Guide to Competitive Programming]].  As of this writing the PDF is free.
-  - Register on [[https://codeforces.com][Code Forces]].  Your username *will be visible* to other students; you can create a "throwaway"
-    account if you want just for this course.
+  - Register a new account on [[https://codeforces.com][Code Forces]].  This is particularly important if you happen to have taken this course before.
+    Your username *will be visible* to other students.
     - Once you are registered, join [[https://codeforces.com/group/vXcw3y5Yhn/contests][the class group]].  This is where your problems
       will be hosted.
 
@@ -163,7 +163,7 @@ release a larger problem set with a variety of problems to give you practice pic
 
 *** Assignments and Grading
 
-This course is a Credit/No Credit course, but will be organized as if you were going to receive a letter grade. To get credit for the course,
+*This course is a Credit/No Credit course, but will be organized as if you were going to receive a letter grade.* To get credit for the course,
 you must achieve a C- or better.
 
 There are three components to your grade: attendance, solving problems, and participating in contests or other activities.
@@ -176,15 +176,15 @@ will turn into a B if you have 6 unexcused absences.)
 **** Solving Problems
 
 We will calculate the percentage of the problems you solve from the pre-class problems, the homeworks, and the bi-weekly
-problem sets.  Each problem has the same weight.  This category is worth 90% of the grade.
+problem sets.  Each problem has the same weight.
 
-**** Participation
-
-You are also expected to participate in a certain number of timed contests.  These can be on CodeForces (1 point) or
-hosted by ICPC (2 points for a 5 hour contest).  Other contest sites may also count; ask the instructor for
-pre-approval.  Other activities such as attending a guest lecture or contributing problems to the course problem pool,
-or creating a Team Reference Document can also count toward this requirement.  You are expected to accumulate four
-participation points.  This category is worth 10% of the grade.
+# **** Participation
+#
+# You are also expected to participate in a certain number of timed contests.  These can be on CodeForces (1 point) or
+# hosted by ICPC (2 points for a 5 hour contest).  Other contest sites may also count; ask the instructor for
+# pre-approval.  Other activities such as attending a guest lecture or contributing problems to the course problem pool,
+# or creating a Team Reference Document can also count toward this requirement.  You are expected to accumulate four
+# participation points.  This category is worth 10% of the grade.
 
 *** Other Things
 **** Students with Disabilities
@@ -237,19 +237,80 @@ McKinley Health Center:217-333-2700, 1109 South Lincoln Avenue, Urbana, Illinois
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :weight 1 :date 2022-08-22 :publishdate 2022-07-01
 :END:
 
-| Date               | Topic                                    |
-|--------------------+------------------------------------------|
-| August 21, 2023    | Intro to Competitive Programming         |
-| August 23, 2023    | IO                                       |
-| August 25, 2023    | Standard Template Library                |
-| August 28, 2023    | [[*Complete Search]]                     |
-| August 30, 2023    | [[*Divide and Conquer]]                  |
-| September 1, 2023  | [[*Greedy Algorithms]]                   |
-| September 6, 2023  | [[*Introduction to Dynamic Programming]] |
-| September 8, 2023  | [[*Graph Representations]]               |
-| September 11, 2023 | [[*Minimum Spanning Trees]]              |
-| September 13, 2023 | [[*Graph Traversals 1]]                  |
-| September 15, 2023 | [[*Single Source Shortest Path]]         |
+| Date               | Topic                                        |
+|--------------------+----------------------------------------------|
+| August 21, 2023    | [[*Introduction to Competitive Programming]] |
+| August 25, 2023    | [[*Standard Template Library]]               |
+| August 28, 2023    | [[*Complete Search]]                         |
+| August 30, 2023    | [[*Divide and Conquer]]                      |
+| September 1, 2023  | [[*Greedy Algorithms]]                       |
+| September 6, 2023  | [[*Introduction to Dynamic Programming]]     |
+| September 8, 2023  | [[*Graph Representations]]                   |
+| September 11, 2023 | [[*Minimum Spanning Trees]]                  |
+| September 13, 2023 | [[*Graph Traversals 1]]                      |
+| September 15, 2023 | [[*Single Source Shortest Path]]             |
+| September 20, 2023 | [[*All Points Shortest Path]]                |
+| September 25, 2023 | [[*Graph Traversals 2]]                      |
+| September 27, 2023 | [[*Prime Numbers]]                           |
+| October 2, 2023    | [[*GCD]]                                     |
+| October 4, 2023    | [[*Inclusion/Exclusion]]                     |
+| October 9, 2023    | [[*DP: LCS and LIS]]                         |
+| October 11, 2023   | [[*DP: Palindromes]]                         |
+| October 13, 2023   | [[*DP: Knapsack]]                            |
+| October 16, 2023   | No Class (Senate Meeting)                    |
+| October 18, 2023   | [[*Combinatorics]]                           |
+| October 20, 2023   | [[*Bit Manipulations]]                       |
+| October 23, 2023   | [[*Fast Exponentiation]]                     |
+| October 25, 2023   | [[*Catalan Numbers]]                         |
+| October 27, 2023   | [[*DP: Knapsack 2]]                          |
+| October 30, 2023   | [[*LCA and Binary Lifting]]                  |
+| November 1, 2023   | [[*TSP]]                                     |
+| November 3, 2023   | [[*Edit Distance]]                           |
+
+** Template
+:PROPERTIES:
+:EXPORT_FILE_NAME: template
+:EXPORT_DATE: 2023-03-06
+:END:
+
+** Introduction to Competitive Programming
+:PROPERTIES:
+:EXPORT_FILE_NAME: introduction_to_competitive_programming
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :weight 4 :date 2022-08-22 :publishdate 2022-07-01
+:END:
+
+Welcome to Competitive Programming!  Today we will talk about the benefits of competitive programming, the course structure, and the tools we will
+use in the course.
+
+*** Slides
+- [[/slides/course-introduction.pdf][Course Introduction Slides]]
+
+*** Judge Links
+  - Register on [[https://codeforces.com][Code Forces]].  Your username **will be visible** to other students; you can create a "throwaway"
+    account if you want just for this course.
+    - Once you are registered, join [[https://codeforces.com/group/vXcw3y5Yhn/contests][the class group]].  This is where your problems will be hosted.
+    - Use this [[https://docs.google.com/forms/d/e/1FAIpQLScdDVbkZSqkwEiznyKp_NlCwp0ZRZbOiPfidqcb9Zhi7p_GuQ/viewform?usp=sf_link][google form]] to record your username.
+
+** Standard Template Library
+:PROPERTIES:
+:EXPORT_FILE_NAME: standard_template_libaray
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :weight 4 :date 2022-08-22 :publishdate 2022-07-01
+:END:
+
+Today we will discuss the standard template library for C++.  You don't have to use this for your own
+programming, but we will use it in our examples so you should know how it all works.
+
+We will cover:
+ - C-Style arrays
+ - Vectors
+ - Pairs
+ - Stacks and Queues
+ - Maps and Sets
+
+We will not cover =priority_queue=, but you may want to look at those as well on your own.
+
+*** Slides
+- [[/slides/standard-template-library.pdf][STL Slides]]
 
 ** Complete Search
 :PROPERTIES:
@@ -289,7 +350,6 @@ recursively sorted, and then the two sorted halves are merged together.
 :ID:       536a6476-b1c4-4dd7-b720-44a06977ecf4
 :END:
 
-
 A Greedy Algorithm is a problem-solving approach that makes a locally optimal choice at each step.  There is a class of
 problems where this approach also yields the globally optimum solution.
 
@@ -302,7 +362,7 @@ scheduling problems.
 
 ** Introduction to Dynamic Programming
 :PROPERTIES:
-:EXPORT_FILE_NAME: dynamic-programming
+:EXPORT_FILE_NAME: dynamic_programming
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :weight 7 :date 2022-08-22 :publishdate 2022-07-01
 :ID:       3ed6c54b-200a-4a1f-b20b-3953698f305b
 :END:
@@ -314,10 +374,9 @@ global solution.  Dynamic programming allows us to take advantage of the overlap
 *** Slides
 - [[/slides/dynamic-programming.pdf][Dynamic Programming Slides]]
 
-
 ** Graph Representations
 :PROPERTIES:
-:EXPORT_FILE_NAME: graph-representations
+:EXPORT_FILE_NAME: graph_representations
 :EXPORT_DATE: 2023-02-13
 :ID:       ca2dbeb0-083d-4f98-95ad-c429bf32bae9
 :END:
@@ -325,10 +384,9 @@ global solution.  Dynamic programming allows us to take advantage of the overlap
 *** Slides
 - [[/slides/graph-representation.pdf][Graph Representation Slides]]
 
-
 ** Minimum Spanning Trees
 :PROPERTIES:
-:EXPORT_FILE_NAME: minimum-spanning-trees
+:EXPORT_FILE_NAME: minimum_spanning_trees
 :EXPORT_DATE: 2023-02-20
 :ID:       f187cfce-4357-4fa8-89dd-8ef15ad7a0eb
 :END:
@@ -343,7 +401,7 @@ between any particular two noted.  These are called /Minimum Spanning Trees/.
 
 ** Graph Traversals 1
 :PROPERTIES:
-:EXPORT_FILE_NAME: graph-traversals-1
+:EXPORT_FILE_NAME: graph_traversals_1
 :EXPORT_DATE: 2023-02-24
 :ID:       5c13742e-38e0-4436-8d7b-426af1f28ee5
 :END:
@@ -356,9 +414,25 @@ in the context of competitve programming.
 
 - [[/slides/graph-traversals-1.pdf][Graph Traversals 1]]
 
+** Graph Traversals 2
+:PROPERTIES:
+:EXPORT_FILE_NAME: graph_traversals_2
+:EXPORT_DATE: 2023-03-06
+:END:
+
+
+You know about BFS and DFS already, but it turns out they are capable of revealing other interesting properties of
+graphs.  We will show how to use these traversals to detect if a graph is bipartite (yet another way....) and find
+cycles, SCCs, cut edges, and cut nodes.
+
+*** Slides
+
+-  [[/slides/graph-traversals-2.pdf][Graph Traversals 2]]
+
+
 ** Single Source Shortest Path
 :PROPERTIES:
-:EXPORT_FILE_NAME: single-source-shortest-path
+:EXPORT_FILE_NAME: single_source_shortest_path
 :EXPORT_DATE: 2023-02-20
 :ID:       4e09691a-8f1a-4fd3-8b5c-f75251bcb105
 :END:
@@ -374,10 +448,16 @@ we will talk about using those traversals to find the shortest path
 
 ** All Points Shortest Path
 :PROPERTIES:
-:EXPORT_FILE_NAME: all-points-shortest-path
+:EXPORT_FILE_NAME: all_points_shortest_path
 :EXPORT_DATE: 2023-02-20
 :ID:       68db99bd-53c6-4425-aa45-c37d63573504
 :END:
+
+The Floyd-Warshall algorithm is a dynamic programming technique used in competitive programming to find the shortest
+paths between all pairs of vertices in a weighted, directed graph. Unlike Dijkstra's and Bellman-Ford's algorithms,
+which focus on single-source shortest paths, Floyd-Warshall efficiently computes the shortest paths for every vertex
+pair simultaneously.  Due to its $O(V^3)$ time complexity, it's best suited for graphs with a relatively small number of
+vertices, typically when $ V \leq 400 $ in most competitive scenarios.
 
 *** Slides
 
@@ -385,10 +465,14 @@ we will talk about using those traversals to find the shortest path
 
 ** Traversals 2
 :PROPERTIES:
-:EXPORT_FILE_NAME: traversals-2
+:EXPORT_FILE_NAME: traversals_2
 :EXPORT_DATE: 2023-02-24
 :ID:       5c13742e-38e0-4436-8d7b-426af1f28ee5
 :END:
+
+You know about BFS and DFS already, but it turns out they are capable of revealing other interesting properties of
+graphs.  We will show how to use these traversals to detect if a graph is bipartite (yet another way....) and find
+cycles, SCCs, cut edges, and cut nodes.
 
 *** Slides
 
@@ -397,7 +481,7 @@ we will talk about using those traversals to find the shortest path
 
 ** Network Flow
 :PROPERTIES:
-:EXPORT_FILE_NAME: network-flow
+:EXPORT_FILE_NAME: network_flow
 :EXPORT_DATE: 2023-02-27
 :ID:       0422089d-5d4e-4d32-bed1-d0a4dfb47870
 :END:
@@ -413,7 +497,7 @@ augmenting path in the residual graph, making it faster and more efficient than 
 
 ** Prime Numbers
 :PROPERTIES:
-:EXPORT_FILE_NAME: prime-numbers
+:EXPORT_FILE_NAME: prime_numbers
 :EXPORT_DATE: 2023-03-01
 :ID:       d621ddd6-0b6d-4175-b474-314799ed46ae
 :END:
@@ -425,6 +509,7 @@ number of prime numbers we can generate during a contest.
 *** Slides
 
 - [[/slides/prime-numbers.pdf][Prime Numbers]]
+
 
 ** Combinatorics
 :PROPERTIES:
@@ -467,7 +552,7 @@ competitve programming problems.
 
 ** Inclusion/Exclusion
 :PROPERTIES:
-:EXPORT_FILE_NAME: inclusion-exclusion
+:EXPORT_FILE_NAME: inclusion_exclusion
 :EXPORT_DATE: 2023-03-08
 :ID:       f118cc9f-89b0-4a60-92e7-ed16708011fb
 :END:
@@ -489,12 +574,102 @@ other areas of mathematics.
 
 - [[/slides/inclusion-exclusion.pdf][Inclusion-Exclusion Slides]]
 
-** Bit Manipulation
+** DP: LCS and LIS
 :PROPERTIES:
-:EXPORT_FILE_NAME: bit-manipulation
+:EXPORT_FILE_NAME: dp_lcs_and_lis
+:EXPORT_DATE: 2023-03-06
+:END:
+
+Two related problems are /Longest Common Subsequence/ and /Longest Increasing Subsequence/. We can solve both of these
+using a standard DP pattern.
+
+*** Slides
+:PROPERTIES:
+:CUSTOM_ID: slides
+:END:
+- [[/slides/dp-lcs-lis.pdf][DP: LCS and LIS]]
+
+** DP: Palindromes
+:PROPERTIES:
+:EXPORT_FILE_NAME: dp_palindromes
+:EXPORT_DATE: 2023-03-06
+:END:
+A palindrome is a string that is the same after being reversed. We can
+detect palindromes quickly using dynamic programming.
+
+*** Slides
+:PROPERTIES:
+:CUSTOM_ID: slides
+:END:
+- [[/slides/palindrome-slides.pdf][Palindrome Slides]]
+- [[/handouts/dp-palindromes.pdf][Palindrome Handout]]
+
+** DP: Knapsack
+:PROPERTIES:
+:EXPORT_FILE_NAME: dp_knapsack
+:EXPORT_DATE: 2023-03-06
+:END:
+The Knapsack problem is famous. How to fill a sack with items that are
+of maximal value without breaking the sack?
+
+*** Slides
+
+- [[/slides/dp-knapsack.pdf][DP: Knapsack]]
+
+
+** DP: Knapsack 2
+:PROPERTIES:
+:EXPORT_FILE_NAME: dp_knapsack_2
+:EXPORT_DATE: 2023-03-06
+:END:
+The Knapsack problem is famous. How to fill a sack with items that are of maximal value without breaking the sack?
+
+Last class we discussed how to do this using a classic algorithm. This time we will combine dynamic programming with
+divide and conquer to make a truly fast version that can solve knapsack with repetitions.
+
+*** Slides
+- [[/slides/dp-knapsack-2.pdf][DP: Knapsack]]
+- [[/code/knapsack2.cpp][source code]]
+
+** LCA and Binary Lifting
+:PROPERTIES:
+:EXPORT_FILE_NAME: template
+:EXPORT_DATE: 2023-03-06
+:END:
+Many algorithms, such as cycle detection, need us to be able to find the least common ancestor of two nodes. Here is a
+fast way to do that making use of a technique called /binary lifting/.
+
+*** Slides
+- [[/slides/lca-binary-lifting.pdf][LCA and Binary Lifting]]
+
+
+** TSP
+:PROPERTIES:
+:EXPORT_FILE_NAME: tsp
+:EXPORT_DATE: 2023-03-06
+:END:
+
+The Traveling Salesperson Problem (TSP) is a well-known problem in computer science and operations research that asks
+for the shortest possible route that visits every city exactly once and returns to the starting city. TSP has many
+practical applications, including in logistics, transportation planning, and circuit board design.
+
+*** Materials
+- [[/handouts/tsp-handout.pdf][Handout]]
+- [[/slides/tsp.pdf][Slides]]
+
+
+** Bit Manipulations
+:PROPERTIES:
+:EXPORT_FILE_NAME: bit_manipulations
 :EXPORT_DATE: 2023-03-20
 :ID:       d7d4e811-1f15-42ca-b44c-fd51153aa8e1
 :END:
+
+There are a lot of things you can do using bit-level operations that will speed things up for you.
+For example you can check quickly if a number is a power of 2, reveal the lest significant bit, or
+zero out a high order or low order part of an integer if you know the proper bit patterns to use.
+
+If you like this lecture, then you may want to check out the book [[https://en.wikipedia.org/wiki/Hacker%27s_Delight][Hacker's Delight]]
 
 *** Materials
 
@@ -518,7 +693,7 @@ practical applications, including in logistics, transportation planning, and cir
 
 ** Fast Exponentiation
 :PROPERTIES:
-:EXPORT_FILE_NAME: fast-exponentiation
+:EXPORT_FILE_NAME: fast_exponentiation
 :EXPORT_DATE: 2023-03-24
 :ID:       71052961-1628-496c-b36d-7e223977c62d
 :END:
@@ -532,7 +707,7 @@ This generalizes to other forms as well, such as computing Fibonacci numbers is 
 
 ** Points, Lines, and Vectors
 :PROPERTIES:
-:EXPORT_FILE_NAME: points-lines-vectors
+:EXPORT_FILE_NAME: points_lines_vectors
 :EXPORT_DATE: 2023-03-27
 :ID:       bd6ab2e0-c715-428f-a055-5e8cc58708d2
 :END:
@@ -543,7 +718,7 @@ This generalizes to other forms as well, such as computing Fibonacci numbers is 
 
 ** Line Sweep
 :PROPERTIES:
-:EXPORT_FILE_NAME: line-sweep
+:EXPORT_FILE_NAME: line_sweep
 :EXPORT_DATE: 2023-04-05
 :END:
 
@@ -556,7 +731,7 @@ This generalizes to other forms as well, such as computing Fibonacci numbers is 
 
 ** Rotating Calipers
 :PROPERTIES:
-:EXPORT_FILE_NAME: rotating-calipers
+:EXPORT_FILE_NAME: rotating_calipers
 :EXPORT_DATE: 2023-04-07
 :ID:       1ce51bbb-8fe0-49ba-9855-ca24018b2ec4
 :END:
@@ -625,12 +800,12 @@ while (i <= k && j < n) {
 
 ** Edit Distance
 :PROPERTIES:
-:EXPORT_FILE_NAME: line-sweep
+:EXPORT_FILE_NAME: edit_distance
 :EXPORT_DATE: 2023-04-05
+:ID:       2c33e2fd-ca45-4ff0-9b90-57ea4a3ace76
 :END:
 
-Today we will talk about a classic string DP problem, determining the edit distance
-between two strings.
+Today we will talk about a classic string DP problem, determining the edit distance between two strings.
 
 *** Materials
 
@@ -640,8 +815,9 @@ between two strings.
 
 ** Rabin-Karp Algorithm
 :PROPERTIES:
-:EXPORT_FILE_NAME: rabin-karp
+:EXPORT_FILE_NAME: rabin_karp
 :EXPORT_DATE: 2023-04-14
+:ID:       8893391c-2a87-46fa-9d06-bf1ed32ae344
 :END:
 
 The Rabin-Karp algorithm uses a rolling hash function to find a string within another string.
@@ -649,6 +825,20 @@ The Rabin-Karp algorithm uses a rolling hash function to find a string within an
 *** Materials
 
 - [[/slides/rabin-karp.pdf][Slides]]
+
+** Catalan Numbers
+:PROPERTIES:
+:EXPORT_FILE_NAME: catalan_numbers
+:EXPORT_DATE: 2023-03-06
+:ID:       a30b5140-77eb-4ae5-aad2-695c0a0b867d
+:END:
+
+The catalan numbers are a sequence that describe a large number of recursive problems. For example, they can count the
+number of ways to arrange a group of open and close parethesis so that they are properly balanced.
+
+*** Slides
+- [[/slides/catalan-numbers.pdf][Combinatorics]]
+
 
 * End :noexport:
 ;; Local Variables:

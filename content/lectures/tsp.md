@@ -1,6 +1,5 @@
 +++
 title = "Traveling Sales Person"
-author = ["Mattox Beckman"]
 date = 2023-03-22
 draft = false
 weight = 2
@@ -14,4 +13,4 @@ practical applications, including in logistics, transportation planning, and cir
 ## Materials {#materials}
 
 -   [Handout](/handouts/tsp-handout.pdf)
--   [Slides](/slides/tsp.pdf)
+-   [Slides](/slides/tsp-slides.pdf)

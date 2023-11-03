@@ -1,6 +1,5 @@
 +++
 title = "GCD"
-author = ["Mattox Beckman"]
 date = 2023-03-08
 draft = false
 weight = 2
@@ -14,5 +13,4 @@ competitve programming problems.
 
 ## Materials {#materials}
 
--   [Euclid's Algorithm Slides](/slides/euclids-algorithm.pdf)
 -   [GCD Handout](/handouts/gcd.pdf)

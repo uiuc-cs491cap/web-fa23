@@ -1,6 +1,5 @@
 +++
 title = "Complete Search"
-author = ["Mattox Beckman"]
 draft = false
 weight = 4
 date = 2022-08-22

@@ -1,6 +1,5 @@
 +++
 title = "Getting Started"
-author = ["Mattox Beckman"]
 draft = false
 weight = 2
 date = 2022-08-22
@@ -14,8 +13,8 @@ publishdate = 2022-07-01
 -   It is recommended that you get these books:
     -   [Competitive Programming 4](https://cpbook.net).  It is a two book set.
     -   [Guide to Competitive Programming](https://link.springer.com/book/10.1007/978-3-319-72547-5).  As of this writing the PDF is free.
--   Register on [Code Forces](https://codeforces.com).  Your username **will be visible** to other students; you can create a "throwaway"
-    account if you want just for this course.
+-   Register a new account on [Code Forces](https://codeforces.com).  This is particularly important if you happen to have taken this course before.
+    Your username **will be visible** to other students.
     -   Once you are registered, join [the class group](https://codeforces.com/group/vXcw3y5Yhn/contests).  This is where your problems
         will be hosted.
 

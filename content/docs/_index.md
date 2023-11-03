@@ -1,6 +1,5 @@
 +++
-title = "Why Take This Course?"
-author = ["Mattox Beckman"]
+title = "Welcome"
 draft = false
 weight = 1
 date = 2022-08-22
