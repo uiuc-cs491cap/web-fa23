@@ -43,6 +43,23 @@
 #+HTML:   <source type="video/mp4" src="/videos/EditDistance.mp4"}></source>
 #+HTML: </video>
 
+** Naive Matching Video
+:PROPERTIES:
+:EXPORT_FILE_NAME: line_sweep_convex_hull
+:END:
+
+#+HTML: <video id="my-video" controls preload="auto" width="720" data-setup="playbackRates: [0.5,1,1.5,2]">
+#+HTML:   <source type="video/mp4" src="/videos/NaiveMatch.mp4"}></source>
+#+HTML: </video>
+
+** KMP Matching Video
+:PROPERTIES:
+:EXPORT_FILE_NAME: line_sweep_convex_hull
+:END:
+
+#+HTML: <video id="my-video" controls preload="auto" width="720" data-setup="playbackRates: [0.5,1,1.5,2]">
+#+HTML:   <source type="video/mp4" src="/videos/KMPMatch.mp4"}></source>
+#+HTML: </video>
 
 * Course Documentation
 :PROPERTIES:
@@ -266,6 +283,7 @@ McKinley Health Center:217-333-2700, 1109 South Lincoln Avenue, Urbana, Illinois
 | October 30, 2023   | [[*LCA and Binary Lifting]]                  |
 | November 1, 2023   | [[*TSP]]                                     |
 | November 3, 2023   | [[*Edit Distance]]                           |
+| November 6, 2023   | [[*KMP String Matching]]        |
 
 ** Template
 :PROPERTIES:
@@ -812,6 +830,18 @@ Today we will talk about a classic string DP problem, determining the edit dista
 - [[/slides/edit-distance-slides.pdf][Slides]]
 - [[*Edit Distance Video]]
 
+
+** KMP String Matching
+:PROPERTIES:
+:EXPORT_FILE_NAME: kmp
+:EXPORT_DATE: 2023-03-06
+:END:
+
+*** Materials
+
+- [[/slides/kmp.pdf][Slides]]
+- [[*Naive Matching Video]]
+- [[*KMP Matching Video]]
 
 ** Rabin-Karp Algorithm
 :PROPERTIES:

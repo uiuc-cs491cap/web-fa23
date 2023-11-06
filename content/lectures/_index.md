@@ -35,3 +35,4 @@ publishdate = 2022-07-01
 | October 30, 2023   | [LCA and Binary Lifting]({{< relref "template" >}})                                                 |
 | November 1, 2023   | [TSP]({{< relref "tsp" >}})                                                                         |
 | November 3, 2023   | [Edit Distance]({{< relref "edit_distance" >}})                                                     |
+| November 6, 2023   | [KMP String Matching]({{< relref "kmp" >}})                                                         |
