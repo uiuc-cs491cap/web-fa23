@@ -254,8 +254,8 @@ McKinley Health Center:217-333-2700, 1109 South Lincoln Avenue, Urbana, Illinois
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :weight 1 :date 2022-08-22 :publishdate 2022-07-01
 :END:
 
-| Date               | Topic                                        |
-|--------------------+----------------------------------------------|
+| Date               | Topic                                    |
+|--------------------+------------------------------------------|
 | August 21, 2023    | [[*Introduction to Competitive Programming]] |
 | August 25, 2023    | [[*Standard Template Library]]               |
 | August 28, 2023    | [[*Complete Search]]                         |
@@ -274,7 +274,7 @@ McKinley Health Center:217-333-2700, 1109 South Lincoln Avenue, Urbana, Illinois
 | October 9, 2023    | [[*DP: LCS and LIS]]                         |
 | October 11, 2023   | [[*DP: Palindromes]]                         |
 | October 13, 2023   | [[*DP: Knapsack]]                            |
-| October 16, 2023   | No Class (Senate Meeting)                    |
+| October 16, 2023   | No Class (Senate Meeting)                |
 | October 18, 2023   | [[*Combinatorics]]                           |
 | October 20, 2023   | [[*Bit Manipulations]]                       |
 | October 23, 2023   | [[*Fast Exponentiation]]                     |
@@ -283,7 +283,8 @@ McKinley Health Center:217-333-2700, 1109 South Lincoln Avenue, Urbana, Illinois
 | October 30, 2023   | [[*LCA and Binary Lifting]]                  |
 | November 1, 2023   | [[*TSP]]                                     |
 | November 3, 2023   | [[*Edit Distance]]                           |
-| November 6, 2023   | [[*KMP String Matching]]        |
+| November 6, 2023   | [[*KMP String Matching]]                     |
+| November 8, 2023   | [[*Rabin-Karp Algorithm]]                    |
 
 ** Template
 :PROPERTIES:

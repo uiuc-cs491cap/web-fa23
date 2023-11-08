@@ -36,3 +36,4 @@ publishdate = 2022-07-01
 | November 1, 2023   | [TSP]({{< relref "tsp" >}})                                                                         |
 | November 3, 2023   | [Edit Distance]({{< relref "edit_distance" >}})                                                     |
 | November 6, 2023   | [KMP String Matching]({{< relref "kmp" >}})                                                         |
+| November 8, 2023   | [Rabin-Karp Algorithm]({{< relref "rabin_karp" >}})                                                 |
