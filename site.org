@@ -9,7 +9,7 @@
 
 ** Line Sweep Convex Hull
 :PROPERTIES:
-:EXPORT_FILE_NAME: line_sweep_convex_hull
+:EXPORT_FILE_NAME: line_sweep_convex_hull_video
 :END:
 
 #+HTML: <video id="my-video" controls preload="auto" width="720" data-setup="playbackRates: [0.5,1,1.5,2]">
@@ -18,7 +18,7 @@
 
 ** Line Sweep Closest Points
 :PROPERTIES:
-:EXPORT_FILE_NAME: line_sweep_closest_points
+:EXPORT_FILE_NAME: line_sweep_closest_points_video
 :END:
 
 #+HTML: <video id="my-video" controls preload="auto" width="720" data-setup="playbackRates: [0.5,1,1.5,2]">
@@ -27,7 +27,7 @@
 
 ** Line Sweep Area of Union
 :PROPERTIES:
-:EXPORT_FILE_NAME: line_sweep_area_of_union
+:EXPORT_FILE_NAME: line_sweep_area_of_union_video
 :END:
 
 #+HTML: <video id="my-video" controls preload="auto" width="720" data-setup="playbackRates: [0.5,1,1.5,2]">
@@ -45,7 +45,7 @@
 
 ** Naive Matching Video
 :PROPERTIES:
-:EXPORT_FILE_NAME: line_sweep_convex_hull
+:EXPORT_FILE_NAME: naive_matching_video
 :END:
 
 #+HTML: <video id="my-video" controls preload="auto" width="720" data-setup="playbackRates: [0.5,1,1.5,2]">
@@ -54,7 +54,7 @@
 
 ** KMP Matching Video
 :PROPERTIES:
-:EXPORT_FILE_NAME: line_sweep_convex_hull
+:EXPORT_FILE_NAME: kmp_matching_video
 :END:
 
 #+HTML: <video id="my-video" controls preload="auto" width="720" data-setup="playbackRates: [0.5,1,1.5,2]">
@@ -850,7 +850,7 @@ Today we will talk about a classic string DP problem, determining the edit dista
 :ID:       8893391c-2a87-46fa-9d06-bf1ed32ae344
 :END:
 
-The Rabin-Karp algorithm uses a rolling hash function to find a string within another string.
+The Rabin-Karp algorithm is another fast string matching technique.  It uses a rolling hash function to find a string within another string.
 
 *** Materials
 

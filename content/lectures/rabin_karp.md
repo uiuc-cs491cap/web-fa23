@@ -5,7 +5,7 @@ draft = false
 weight = 2
 +++
 
-The Rabin-Karp algorithm uses a rolling hash function to find a string within another string.
+The Rabin-Karp algorithm is another fast string matching technique.  It uses a rolling hash function to find a string within another string.
 
 
 ## Materials {#materials}
