@@ -37,3 +37,12 @@ publishdate = 2022-07-01
 | November 3, 2023   | [Edit Distance]({{< relref "edit_distance" >}})                                                     |
 | November 6, 2023   | [KMP String Matching]({{< relref "kmp" >}})                                                         |
 | November 8, 2023   | [Rabin-Karp Algorithm]({{< relref "rabin_karp" >}})                                                 |
+| November 10, 2023  | [Sqrt Decomposition]({{< relref "sqrt-decomposition" >}})                                           |
+| November 13, 2023  | No Class (Senate Meeting)                                                                           |
+| November 15, 2023  | Segment Trees                                                                                       |
+| November 17, 2023  | Lazy Segment Trees                                                                                  |
+| November 27, 2023  | Points and Lines                                                                                    |
+| November 29, 2023  | Shapes                                                                                              |
+| December 1, 2023   | Convex Hull                                                                                         |
+| December 4, 2023   | Line Sweep                                                                                          |
+| December 6, 2023   | Rotating Callipers                                                                                  |

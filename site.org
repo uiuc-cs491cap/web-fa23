@@ -285,6 +285,15 @@ McKinley Health Center:217-333-2700, 1109 South Lincoln Avenue, Urbana, Illinois
 | November 3, 2023   | [[*Edit Distance]]                           |
 | November 6, 2023   | [[*KMP String Matching]]                     |
 | November 8, 2023   | [[*Rabin-Karp Algorithm]]                    |
+| November 10, 2023  | [[*Sqrt Decomposition]]                      |
+| November 13, 2023  | No Class (Senate Meeting)                |
+| November 15, 2023  | Segment Trees                            |
+| November 17, 2023  | Lazy Segment Trees                       |
+| November 27, 2023  | Points and Lines                         |
+| November 29, 2023  | Shapes                                   |
+| December 1, 2023   | Convex Hull                              |
+| December 4, 2023   | Line Sweep                               |
+| December 6, 2023   | Rotating Callipers                       |
 
 ** Template
 :PROPERTIES:
@@ -869,6 +878,20 @@ number of ways to arrange a group of open and close parethesis so that they are 
 
 *** Slides
 - [[/slides/catalan-numbers.pdf][Combinatorics]]
+
+
+** Sqrt Decomposition
+:PROPERTIES:
+:EXPORT_FILE_NAME: sqrt-decomposition
+:EXPORT_DATE: 2023-03-06
+:END:
+
+
+
+*** Slides
+- [[/slides/sqrt-decomposition.pdf][Slides]]
+
+
 
 
 * End :noexport:
