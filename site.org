@@ -287,7 +287,7 @@ McKinley Health Center:217-333-2700, 1109 South Lincoln Avenue, Urbana, Illinois
 | November 8, 2023   | [[*Rabin-Karp Algorithm]]                    |
 | November 10, 2023  | [[*Sqrt Decomposition]]                      |
 | November 13, 2023  | No Class (Senate Meeting)                |
-| November 15, 2023  | Segment Trees                            |
+| November 15, 2023  | [[*Segment Trees]]
 | November 17, 2023  | Lazy Segment Trees                       |
 | November 27, 2023  | Points and Lines                         |
 | November 29, 2023  | Shapes                                   |
@@ -893,6 +893,18 @@ number of ways to arrange a group of open and close parethesis so that they are 
 
 
 
+
+** Segment Trees
+:PROPERTIES:
+:EXPORT_FILE_NAME: template
+:EXPORT_DATE: 2023-03-06
+:ID:       e31c6f06-1a5a-4747-bba1-daee18c903c3
+:END:
+
+A Segment Tree is a data structure to encode the results of divide and conquer.  It is similar to sqrt-decomposition but more "recursive."
+
+*** Slides
+- [[/slides/segment-trees.pdf][Slides]]
 
 * End :noexport:
 ;; Local Variables:
