@@ -39,10 +39,10 @@ publishdate = 2022-07-01
 | November 8, 2023   | [Rabin-Karp Algorithm]({{< relref "rabin_karp" >}})                                                 |
 | November 10, 2023  | [Sqrt Decomposition]({{< relref "sqrt-decomposition" >}})                                           |
 | November 13, 2023  | No Class (Senate Meeting)                                                                           |
-| November 15, 2023  | [Segment Trees]({{< relref "template" >}})                                                          |
-| November 17, 2023  | Lazy Segment Trees                                                                                  |
-| November 27, 2023  | Points and Lines                                                                                    |
-| November 29, 2023  | Shapes                                                                                              |
-| December 1, 2023   | Convex Hull                                                                                         |
-| December 4, 2023   | Line Sweep                                                                                          |
-| December 6, 2023   | Rotating Callipers                                                                                  |
+| November 15, 2023  | [Segment Trees]({{< relref "segment-trees" >}})                                                     |
+| November 17, 2023  | Fall Break Preview                                                                                  |
+| November 27, 2023  | [Lazy Segment Trees]({{< relref "lazy-segment-trees" >}})                                           |
+| November 29, 2023  | Points and Lines                                                                                    |
+| December 1, 2023   | Shapes                                                                                              |
+| December 4, 2023   | Convex Hull                                                                                         |
+| December 6, 2023   | Line Sweep                                                                                          |
