@@ -742,7 +742,7 @@ This generalizes to other forms as well, such as computing Fibonacci numbers is 
 
 *** Materials
 
-- [[/slides/points-lines-vectors-slides.pdf][Slides]]
+- [[/slides/points-lines-vectors.pdf][Slides]]
 
 ** Line Sweep
 :PROPERTIES:

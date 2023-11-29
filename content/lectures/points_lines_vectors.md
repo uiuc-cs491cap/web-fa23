@@ -7,4 +7,4 @@ weight = 2
 
 ## Materials {#materials}
 
--   [Slides](/slides/points-lines-vectors-slides.pdf)
+-   [Slides](/slides/points-lines-vectors.pdf)
