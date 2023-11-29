@@ -290,7 +290,7 @@ McKinley Health Center:217-333-2700, 1109 South Lincoln Avenue, Urbana, Illinois
 | November 15, 2023  | [[*Segment Trees]]                           |
 | November 17, 2023  | Fall Break Preview                           |
 | November 27, 2023  | [[*Lazy Segment Trees]]                      |
-| November 29, 2023  | Points and Lines                             |
+| November 29, 2023  | [[*Points, Lines, and Vectors]]              |
 | December 1, 2023   | Shapes                                       |
 | December 4, 2023   | Convex Hull                                  |
 | December 6, 2023   | Line Sweep                                   |
@@ -916,6 +916,8 @@ This allows not only queries, but updates to be done in ${\cal O}(\log_2 n)$ tim
 
 *** Slides
 - [[/slides/lazy-segment-trees.pdf][Slides]]
+
+  
 * End :noexport:
 ;; Local Variables:
 ;; eval: (org-link-set-parameters "class" :export #'my-org-export-class-link)
