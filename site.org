@@ -7,6 +7,25 @@
 :EXPORT_HUGO_SECTION: videos
 :END:
 
+** Area of Polygon
+:PROPERTIES:
+:EXPORT_FILE_NAME: area_of_polygon_video
+:END:
+
+#+HTML: <video id="my-video" controls preload="auto" width="720" data-setup="playbackRates: [0.5,1,1.5,2]">
+#+HTML:   <source type="video/mp4" src="/videos/AreaOfPolygon.mp4"}></source>
+#+HTML: </video>
+
+** Convex Hull Video
+:PROPERTIES:
+:EXPORT_FILE_NAME: convex_hull_video
+:ID:       543f2489-0289-4a2e-b210-03e78cd7501c
+:END:
+
+#+HTML: <video id="my-video" controls preload="auto" width="720" data-setup="playbackRates: [0.5,1,1.5,2]">
+#+HTML:   <source type="video/mp4" src="/videos/ConvexHull.mp4"}></source>
+#+HTML: </video>
+
 ** Line Sweep Convex Hull
 :PROPERTIES:
 :EXPORT_FILE_NAME: line_sweep_convex_hull_video
@@ -291,8 +310,8 @@ McKinley Health Center:217-333-2700, 1109 South Lincoln Avenue, Urbana, Illinois
 | November 17, 2023  | Fall Break Preview                           |
 | November 27, 2023  | [[*Lazy Segment Trees]]                      |
 | November 29, 2023  | [[*Points, Lines, and Vectors]]              |
-| December 1, 2023   | [[*Shapes]]                                    |
-| December 4, 2023   | Convex Hull                                  |
+| December 1, 2023   | [[*Shapes]]                                  |
+| December 4, 2023   | [[*Convex Hull]]                             |
 | December 6, 2023   | Line Sweep                                   |
 
 ** Template
@@ -743,6 +762,19 @@ This generalizes to other forms as well, such as computing Fibonacci numbers is 
 *** Materials
 
 - [[/slides/points-lines-vectors.pdf][Slides]]
+
+
+** Convex Hull
+:PROPERTIES:
+:EXPORT_FILE_NAME: convex_hull
+:EXPORT_DATE: 2023-04-05
+:ID:       f657176f-7340-44a7-a89e-401799e08e6b
+:END:
+
+*** Materials
+- [[/slides/convex-hull.pdf][Slides]]
+- [[*Area of Polygon]] Video
+- [[*Convex Hull Video]]
 
 ** Line Sweep
 :PROPERTIES:

@@ -44,5 +44,5 @@ publishdate = 2022-07-01
 | November 27, 2023  | [Lazy Segment Trees]({{< relref "lazy-segment-trees" >}})                                           |
 | November 29, 2023  | [Points, Lines, and Vectors]({{< relref "points_lines_vectors" >}})                                 |
 | December 1, 2023   | [Shapes]({{< relref "shapes" >}})                                                                   |
-| December 4, 2023   | Convex Hull                                                                                         |
+| December 4, 2023   | [Convex Hull]({{< relref "convex_hull" >}})                                                         |
 | December 6, 2023   | Line Sweep                                                                                          |
